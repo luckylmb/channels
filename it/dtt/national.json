@@ -4015,7 +4015,45 @@
             "name": "Caccia e Pesca",
             "hbbtvapp": true,
             "type": "popup",
-            "url": "https://app.cacciaepesca.tv/hbbtv-cp/"
+            "url": "https://app.cacciaepesca.tv/hbbtv-cp/",
+            ,
+{
+    "lcn": 501,
+    "logo": "rsila1.svg",
+    "name": "RSI La 1 HD",
+    "hd": true,
+    "type": "hls",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+    "epg": {"source": "rsi", "id": "rsi-la1"}
+},
+{
+    "lcn": 502,
+    "logo": "rsila1.svg",
+    "name": "RSI La 1 HD DASH",
+    "hd": true,
+    "type": "dash",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-DASH8/rsila1hd.mpd",
+    "epg": {"source": "rsi", "id": "rsi-la1"}
+},
+{
+    "lcn": 503,
+    "logo": "rsila2.svg",
+    "name": "RSI La 2 HD",
+    "hd": true,
+    "type": "hls",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+    "epg": {"source": "rsi", "id": "rsi-la2"}
+},
+{
+    "lcn": 504,
+    "logo": "rsila2.svg",
+    "name": "RSI La 2 HD DASH",
+    "hd": true,
+    "type": "dash",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-DASH8/rsila2hd.mpd",
+    "epg": {"source": "rsi", "id": "rsi-la2"}
+}
+
         }
     ]
 }
