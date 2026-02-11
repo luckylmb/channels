@@ -1,3 +1,57 @@
+[
+  {
+    "name": "RSI La 1 HD",
+    "id": "rsi-la1",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RSI_La_1_Logo.svg/512px-RSI_La_1_Logo.svg.png",
+    "group": "Svizzera",
+    "tvg": {
+      "id": "RSILa1.ch",
+      "name": "RSI La 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RSI_La_1_Logo.svg/512px-RSI_La_1_Logo.svg.png",
+      "group": "Svizzera"
+    },
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.0"
+      },
+      {
+        "type": "dash",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-DASH/rsila1hd.mpd",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.0"
+      }
+    ],
+    "drm": null,
+    "catchup": false
+  },
+  {
+    "name": "RSI La 2 HD",
+    "id": "rsi-la2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RSI_La_2_Logo.svg/512px-RSI_La_2_Logo.svg.png",
+    "group": "Svizzera",
+    "tvg": {
+      "id": "RSILa2.ch",
+      "name": "RSI La 2",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RSI_La_2_Logo.svg/512px-RSI_La_2_Logo.svg.png",
+      "group": "Svizzera"
+    },
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.0"
+      },
+      {
+        "type": "dash",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-DASH/rsila2hd.mpd",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.0"
+      }
+    ],
+    "drm": null,
+    "catchup": false
+  },
+
 {
     "$schema": "../../schema.json",
     "channels": [
